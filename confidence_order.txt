@@ -1,0 +1,7 @@
+rule	support	confidence	lift
+frozenset(['Proposed_Use:1_family_dwelling', 'Permit_Type:8']) ==> frozenset(['Existing_Construction_Type:5.0'])	0.210	0.985	1.728
+frozenset(['Proposed_Use:1_family_dwelling']) ==> frozenset(['Existing_Construction_Type:5.0'])	0.227	0.975	1.712
+frozenset(['Proposed_Use:1_family_dwelling', 'Existing_Construction_Type:5.0']) ==> frozenset(['Permit_Type:8'])	0.210	0.926	1.030
+frozenset(['Proposed_Use:1_family_dwelling']) ==> frozenset(['Permit_Type:8'])	0.214	0.917	1.020
+frozenset(['Proposed_Use:1_family_dwelling']) ==> frozenset(['Existing_Construction_Type:5.0', 'Permit_Type:8'])	0.210	0.903	1.776
+frozenset(['Existing_Construction_Type:5.0']) ==> frozenset(['Permit_Type:8'])	0.508	0.892	0.992

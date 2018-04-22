@@ -1,0 +1,9 @@
+frequent_item_set	support
+frozenset(['Permit_Type:8'])	0.899
+frozenset(['Existing_Construction_Type:5.0'])	0.570
+frozenset(['Existing_Construction_Type:5.0', 'Permit_Type:8'])	0.508
+frozenset(['Proposed_Use:1_family_dwelling'])	0.233
+frozenset(['Proposed_Use:1_family_dwelling', 'Existing_Construction_Type:5.0'])	0.227
+frozenset(['Proposed_Use:apartments'])	0.216
+frozenset(['Proposed_Use:1_family_dwelling', 'Permit_Type:8'])	0.214
+frozenset(['Proposed_Use:1_family_dwelling', 'Permit_Type:8', 'Existing_Construction_Type:5.0'])	0.210
